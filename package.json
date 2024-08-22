@@ -1,0 +1,20 @@
+{
+  "name": "form-validation-practice",
+  "version": "1.0.0",
+  "description": "Validates a form whether all the fields are filled as required. The validation method is 100% done in java script.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "eslintConfig": {
+    "extends": ["wesbos"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-wesbos": "^4.0.1"
+  }
+}
