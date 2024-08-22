@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2{
+    text-align: center;
+    margin:1rem 0;
+}
+form{
+    display:flex;
+    justify-content: center;
+}
+form>fieldset{
+    display:flex;
+    flex-direction:column;
+    padding:1rem 0.7rem;
+    width:400px;
+    border-radius: 10px;
+}
+form>fieldset>legend{
+    text-align: center;
+    font-size:1rem;
+}
+form>fieldset>label{
+    font-size:1.2rem;
+    margin:0.5rem 0;
+}
+form>fieldset>input{
+    width:300px;
+    height:18px;
+    border-radius: 5px;
+}
+form>fieldset>input[id='zip']{
+    width:150px;
+}
+form>fieldset>button{
+    margin-top:1.2rem;
+    width:100px;
+    height:25px;
+    font-size:1rem;
+    border-radius:10px;
+    border:none;
+    align-self:center;
+    background:lightgray;
+}
+form>fieldset>button:hover{
+    background:grey;
+}
+form>fieldset>p{
+    color:red;
+    font-size:0.7rem;
+}
+form+p{
+    text-align: center;
+    color:green;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form validation practice</h2>
+    <form action="" novalidate onsubmit="return false">
+        <fieldset>
+            <legend>Please fill out all the fields</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" minlength="3" required>
+            <p id="name-text"></p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="aman@yahoo.com" required>
+            <p id="email-text"></p>
+            <label for="zip">Zip code:</label>
+            <input type="text" id="zip" name="zip code" placeholder="Et-0184" pattern="^(?:[A-Z]{2})?[0-9]{4}$" required>
+            <p id="zip-text"></p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="5" required>
+            <p id="password-text"></p>
+            <label for="confirm">Confirm password:</label>
+            <input type="password" id="confirm" name="confirm password" required>
+            <p id="confirm-text"></p>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+    <p id="final-result"></p>
+    <script src="./script.js"></script>
+</body>
+</html>
